@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CRM Dashboard</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/css-reset@0.0.1/reset.min.css"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            href="./img/favicon.ico"
+            type="image/x-icon"
+        />
+        <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <main class="main container">
+            <aside class="aside__panel">
+                <div class="logo">
+                    <svg class="logo__icon">
+                        <use href="./img/symbol-defs.svg#icon-logo"></use>
+                    </svg>
+                    <h1 class="logo__name">
+                        Dashboard<span class="logo__version">v.01</span>
+                    </h1>
+                </div>
+                <nav class="nav">
+                    <svg class="nav__link-menu">
+                        <use href="./img/symbol-defs.svg#icon-menu"></use>
+                    </svg>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <div class="nav__link-wrap">
+                                    <svg class="nav__link-icon">
+                                        <use
+                                            href="./img/symbol-defs.svg#icon-key"
+                                        ></use>
+                                    </svg>
+                                    <p class="nav__link-text">Dashboard</p>
+                                </div>
+                                <svg class="nav__link-arrow">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-chevron-right"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <div class="nav__link-wrap">
+                                    <svg class="nav__link-icon">
+                                        <use
+                                            href="./img/symbol-defs.svg#icon-product"
+                                        ></use>
+                                    </svg>
+                                    <p class="nav__link-text">Product</p>
+                                </div>
+                                <svg class="nav__link-arrow">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-chevron-right"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item nav__item_active">
+                            <a href="#" class="nav__link">
+                                <div class="nav__link-wrap">
+                                    <svg class="nav__link-icon">
+                                        <use
+                                            href="./img/symbol-defs.svg#icon-user"
+                                        ></use>
+                                    </svg>
+                                    <p class="nav__link-text">Customers</p>
+                                </div>
+                                <svg class="nav__link-arrow">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-chevron-right"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <div class="nav__link-wrap">
+                                    <svg class="nav__link-icon">
+                                        <use
+                                            href="./img/symbol-defs.svg#icon-wallet "
+                                        ></use>
+                                    </svg>
+                                    <p class="nav__link-text">Income</p>
+                                </div>
+                                <svg class="nav__link-arrow">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-chevron-right"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <div class="nav__link-wrap">
+                                    <svg class="nav__link-icon">
+                                        <use
+                                            href="./img/symbol-defs.svg#icon-discount"
+                                        ></use>
+                                    </svg>
+                                    <p class="nav__link-text">Promote</p>
+                                </div>
+                                <svg class="nav__link-arrow">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-chevron-right"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <div class="nav__link-wrap">
+                                    <svg class="nav__link-icon">
+                                        <use
+                                            href="./img/symbol-defs.svg#icon-question"
+                                        ></use>
+                                    </svg>
+                                    <p class="nav__link-text">Help</p>
+                                </div>
+                                <svg class="nav__link-arrow">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-chevron-right"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="person">
+                    <div class="person_img-wrap">
+                        <img
+                            src="./img/avatar.png"
+                            alt="avatar"
+                            class="person_img"
+                        />
+                    </div>
+                    <div class="person_info">
+                        <p class="person_name">Evano</p>
+                        <p class="person_position">Project Manager</p>
+                    </div>
+                </div>
+            </aside>
+            <section class="customers">
+                <div class="greet">
+                    <h2 class="greet__name">Hello Evano</h2>
+                    <div class="greet__img">
+                        <img src="./img/hand.png" alt="hand" />
+                    </div>
+                    <h2 class="greet__name">,</h2>
+                </div>
+                <div class="customers__info">
+                    <div class="customers__header">
+                        <div class="customers__header-wrap">
+                            <h3 class="customers__header-title">
+                                All Customers
+                            </h3>
+                            <p class="customers__header-subtitle">
+                                Active Members
+                            </p>
+                        </div>
+                        <form class="customers__form">
+                            <button class="customers__form-btn" type="submit">
+                                <svg class="customers__form-svg">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-search"
+                                    ></use>
+                                </svg>
+                            </button>
+                            <label class="customers__form-label">
+                                <input
+                                    class="customers__form-input"
+                                    type="text"
+                                    name="input"
+                                    placeholder="Search"
+                                />
+                            </label>
+                        </form>
+                    </div>
+                    <div class="wrap">
+                        <table class="customers__table">
+                            <thead class="customers__table-head">
+                                <tr>
+                                    <th class="customers__table-col1">
+                                        Customer Name
+                                    </th>
+                                    <th class="customers__table-col2">
+                                        Company
+                                    </th>
+                                    <th class="customers__table-col3">
+                                        Phone Number
+                                    </th>
+                                    <th class="customers__table-col4">Email</th>
+                                    <th class="customers__table-col5">
+                                        Country
+                                    </th>
+                                    <th
+                                        class="customers__table-col6 customers__table-head_center"
+                                    >
+                                        Status
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="customers__table-body">
+                                <tr>
+                                    <td class="customers__table-col1">
+                                        Jane Cooper
+                                    </td>
+                                    <td class="customers__table-col2">
+                                        Microsoft
+                                    </td>
+                                    <td class="customers__table-col3">
+                                        (225) 555-0118
+                                    </td>
+                                    <td class="customers__table-col4">
+                                        jane@microsoft.com
+                                    </td>
+                                    <td class="customers__table-col5">
+                                        United States
+                                    </td>
+                                    <td
+                                        class="customers__table-col6 customers__table_active"
+                                    >
+                                        Active
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="customers__table-col1">
+                                        Floyd Miles
+                                    </td>
+                                    <td class="customers__table-col2">Yahoo</td>
+                                    <td class="customers__table-col3">
+                                        (205) 555-0100
+                                    </td>
+                                    <td class="customers__table-col4">
+                                        floyd@yahoo.com
+                                    </td>
+                                    <td class="customers__table-col5">
+                                        Kiribati
+                                    </td>
+                                    <td
+                                        class="customers__table-col6 customers__table_inactive"
+                                    >
+                                        Inactive
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="customers__table-col1">
+                                        Ronald Richards
+                                    </td>
+                                    <td class="customers__table-col2">Adobe</td>
+                                    <td class="customers__table-col3">
+                                        (302) 555-0107
+                                    </td>
+                                    <td class="customers__table-col4">
+                                        ronald@adobe.com
+                                    </td>
+                                    <td class="customers__table-col5">
+                                        Israel
+                                    </td>
+                                    <td
+                                        class="customers__table-col6 customers__table_inactive"
+                                    >
+                                        Inactive
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="customers__table-col1">
+                                        Marvin McKinney
+                                    </td>
+                                    <td class="customers__table-col2">Tesla</td>
+                                    <td class="customers__table-col3">
+                                        (252) 555-0126
+                                    </td>
+                                    <td class="customers__table-col4">
+                                        marvin@tesla.com
+                                    </td>
+                                    <td class="customers__table-col5">Iran</td>
+                                    <td
+                                        class="customers__table-col6 customers__table_active"
+                                    >
+                                        Active
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="customers__table-col1">
+                                        Jerome Bell
+                                    </td>
+                                    <td class="customers__table-col2">
+                                        Google
+                                    </td>
+                                    <td class="customers__table-col3">
+                                        (629) 555-0129
+                                    </td>
+                                    <td class="customers__table-col4">
+                                        jerome@google.com
+                                    </td>
+                                    <td class="customers__table-col5">
+                                        Réunion
+                                    </td>
+                                    <td
+                                        class="customers__table-col6 customers__table_active"
+                                    >
+                                        Active
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="customers__table-col1">
+                                        Kathryn Murphy
+                                    </td>
+                                    <td class="customers__table-col2">
+                                        Microsoft
+                                    </td>
+                                    <td class="customers__table-col3">
+                                        (406) 555-0120
+                                    </td>
+                                    <td class="customers__table-col4">
+                                        kathryn@microsoft.com
+                                    </td>
+                                    <td class="customers__table-col5">
+                                        Curaçao
+                                    </td>
+                                    <td
+                                        class="customers__table-col6 customers__table_active"
+                                    >
+                                        Active
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="customers__table-col1">
+                                        Jacob Jones
+                                    </td>
+                                    <td class="customers__table-col2">Yahoo</td>
+                                    <td class="customers__table-col3">
+                                        (208) 555-0112
+                                    </td>
+                                    <td class="customers__table-col4">
+                                        jacob@yahoo.com
+                                    </td>
+                                    <td class="customers__table-col5">
+                                        Brazil
+                                    </td>
+                                    <td
+                                        class="customers__table-col6 customers__table_active"
+                                    >
+                                        Active
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="customers__table-col1">
+                                        Kristin Watson
+                                    </td>
+                                    <td class="customers__table-col2">
+                                        Facebook
+                                    </td>
+                                    <td class="customers__table-col3">
+                                        (704) 555-0127
+                                    </td>
+                                    <td class="customers__table-col4">
+                                        kristin@facebook.com
+                                    </td>
+                                    <td class="customers__table-col5">
+                                        Åland Islands
+                                    </td>
+                                    <td
+                                        class="customers__table-col6 customers__table_inactive"
+                                    >
+                                        Inactive
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="customers__footer">
+                        <p class="customers__footer-text">
+                            Showing data 1 to 8 of 256K entries
+                        </p>
+                        <div class="pagination">
+                            <button class="pagination__btn">
+                                <svg class="pagination__svg">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-arrow-left"
+                                    ></use>
+                                </svg>
+                            </button>
+                            <div
+                                class="pagination__page-number pagination__page-number_active"
+                            >
+                                1
+                            </div>
+                            <div class="pagination__page-number">2</div>
+                            <div class="pagination__page-number">3</div>
+                            <div class="pagination__page-number ellipsis">
+                                ...
+                            </div>
+                            <div class="pagination__page-number">40</div>
+                            <button class="pagination__btn">
+                                <svg class="pagination__svg">
+                                    <use
+                                        href="./img/symbol-defs.svg#icon-arrow-right"
+                                    ></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
