@@ -39,7 +39,7 @@ a {
 .logo {
     display: flex;
     align-items: center;
-    margin-bottom: 65px;
+    margin-bottom: 53px;
 }
 .logo__icon {
     width: 37px;
@@ -47,7 +47,7 @@ a {
     margin-right: 8px;
 }
 .logo__name {
-    margin-right: 4px;
+    margin-right: 2px;
     color: #000;
     font-size: 26px;
     font-weight: 600;
@@ -164,11 +164,12 @@ a {
 .customers__info {
     background-color: #fff;
     border-radius: 30px;
-    padding: 30px 40px 40px 40px;
+    padding: 30px 40px 40px 38px;
     width: 968px;
     height: 812px;
 }
 .customers__header {
+    padding-right: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -224,7 +225,7 @@ a {
     width: 100%;
     padding: 10px 10px 10px 40px;
     color: #000;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.12px;
@@ -237,7 +238,7 @@ a {
 
 .customers__form-input::placeholder {
     color: #b5b7c0;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.12px;
@@ -247,7 +248,7 @@ a {
 }
 
 .customers__table-head {
-    height: 40px;
+    height: 33px;
     color: #b5b7c0;
     font-size: 14px;
     font-weight: 500;
@@ -280,7 +281,7 @@ a {
 }
 
 .customers__table-body td {
-    height: 70px;
+    height: 69px;
     vertical-align: middle;
 }
 
